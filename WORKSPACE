@@ -90,3 +90,16 @@ bind (
     actual = "@com_google_googletest//:gtest_main",
 )
 
+# Sophus - An SE(3) Lie-Algebra Library
+new_git_repository(
+    name = "com_github_strasdat_sophus",
+    build_file = "//build:sophus.BUILD",
+    remote = "https://github.com/strasdat/Sophus.git",
+    commit = "05f9645077c4e59ca9aa05bb0d0eaf0dd83d2b26",
+)
+
+bind (
+    name = "sophus",
+    actual = "@com_github_strasdat_sophus//:sophus",
+)
+
