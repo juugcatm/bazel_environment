@@ -1,6 +1,10 @@
 #include "gflags/gflags.h"
 #include "glog/logging.h"
 
+#include "ceres/ceres.h"
+#include "Eigen/Dense"
+#include "sophus/se3.hpp"
+
 #include "examples/hello/hello_world_lib.h"
 
 DEFINE_string(message, "", "An additional message to print");

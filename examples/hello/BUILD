@@ -33,7 +33,10 @@ cc_binary (
     ],
     deps = [
         ":hello_world_lib",
+        "//external:ceres",
+        "//external:eigen",
         "//external:gflags",
+        "//external:sophus",
     ]
 )
 
