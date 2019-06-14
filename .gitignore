@@ -37,6 +37,7 @@ bazel-genfiles
 bazel-optimization
 bazel-out
 bazel-testlogs
+bazel-bazel_environment
 
 # Any temporary emacs files
 *~

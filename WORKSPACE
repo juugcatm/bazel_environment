@@ -3,7 +3,7 @@ load ("@bazel_tools//tools/build_defs/repo:git.bzl",
 
 new_git_repository (
     name = "com_github_eigen",
-    build_file = "//build:eigen.BUILD",
+    build_file = "//third_party/tensorflow/third_party:eigen.BUILD",
     remote = "https://github.com/eigenteam/eigen-git-mirror.git",
     tag = "3.3.7",
 )
