@@ -43,6 +43,18 @@ cc_test (
         "hello_world_lib_test.cpp",
     ],
     deps = [
-        "//external:gtest",
+        ":hello_world_lib",
+        "//external:gtest_main",
+    ],
+)
+
+cc_binary (
+    name = "hello_world_lib_bench",
+    srcs = [
+        "hello_world_lib_bench.cpp",
+    ],
+    deps = [
+        ":hello_world_lib",
+        "//external:gbench_main",
     ],
 )

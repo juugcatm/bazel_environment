@@ -9,6 +9,7 @@ namespace hello {
     if (!hello_pb.extra_message().empty()) {
       LOG(INFO) << hello_pb.extra_message();
     }
+    usleep(1000000);
     return !hello_pb.extra_message().empty();
   }
 
