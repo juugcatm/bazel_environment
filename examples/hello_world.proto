@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package hello.proto;
+
+message Hello {
+  // A extra message to print
+  optional string extra_message = 1;
+}

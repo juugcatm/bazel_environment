@@ -42,6 +42,11 @@ git_repository (
     tag = "v2.2.2",
 )
 
+bind (
+    name = "gflags",
+    actual = "@com_github_gflags_gflags//:gflags",
+)   
+
 git_repository (
     name = "com_google_glog",
     remote = "https://github.com/google/glog",
