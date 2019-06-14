@@ -1,7 +1,7 @@
 #include "benchmark/benchmark.h"
 
-#include "examples/hello_world.pb.h"
-#include "examples/hello_world_lib.h"
+#include "examples/hello/hello_world.pb.h"
+#include "examples/hello/hello_world_lib.h"
 
 static void BM_HelloPrint (benchmark::State& s_) {
   hello::proto::Hello bench_options;

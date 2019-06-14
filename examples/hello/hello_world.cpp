@@ -1,7 +1,7 @@
 #include "gflags/gflags.h"
 #include "glog/logging.h"
 
-#include "examples/hello_world_lib.h"
+#include "examples/hello/hello_world_lib.h"
 
 DEFINE_string(message, "", "An additional message to print");
 

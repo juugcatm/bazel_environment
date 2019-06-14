@@ -1,4 +1,4 @@
-#include "examples/hello_world_lib.h"
+#include "examples/hello/hello_world_lib.h"
 
 #include "glog/logging.h"
 

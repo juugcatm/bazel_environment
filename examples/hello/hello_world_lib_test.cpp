@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 
-#include "examples/hello_world.pb.h"
-#include "examples/hello_world_lib.h"
+#include "examples/hello/hello_world.pb.h"
+#include "examples/hello/hello_world_lib.h"
 
 namespace hello {
 

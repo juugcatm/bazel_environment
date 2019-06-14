@@ -1,6 +1,6 @@
 #pragma once
 
-#include "examples/hello_world.pb.h"
+#include "examples/hello/hello_world.pb.h"
 
 namespace hello {
 
