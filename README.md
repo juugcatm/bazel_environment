@@ -6,6 +6,7 @@ Included in here are depdendencies for the following useful libraries:
 * Google Command Line Flags (gflags)
 * Google Test Framework (gtest)
 * Google Benchmark (gbench)
-* Eigen Linear Algebra Library
+* Google Protocol Buffers (proto)
+* Eigen Linear Algebra Library (eigen)
 
 Please use this as a starting point for your projects!
